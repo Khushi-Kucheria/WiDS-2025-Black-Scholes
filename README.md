@@ -36,8 +36,8 @@
   - Total simulated paths: **50,000** (`n_paths`)
   - Number of time steps per path: **252** (`n_steps`)
   - Gamma values considered: **[0.5, 1, 1.5]**
-  - Fixed random seed (**42**) to ensure reproducibility
-- Developed all required functions within the `function.py` module
+  - Fixed random seed (**100**) to ensure reproducibility
+- Developed all required functions within the `helper_function.py` module
 - Estimated stock prices based on the parameters specified in the assignment
 - Computed pricing standard errors for each gamma value
 - Constructed **95% confidence intervals** for the estimated option prices
